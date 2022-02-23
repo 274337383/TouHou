@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3a6c33ee-52eb-43c8-a66f-3be8e89b475f" name="192.168.107.129" url="http://192.168.107.129">
+        <fileTransfer host="192.168.107.129" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c2627bcc-efbd-4396-98ad-f67b4b59d7f9" name="maiddragon.icu" url="http://maiddragon.icu">
+        <fileTransfer host="maiddragon.icu" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
