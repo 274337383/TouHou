@@ -35,3 +35,20 @@
     font-size: 16px;
     color: #fff;
 }
+
+.TouHou_404 {
+    width: 600px;
+    height: 400px;
+    background-color: #6f6f95;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+
+.TouHou_404 .review {
+    padding-top: 290px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 15px;
+    list-style: none;
+}
