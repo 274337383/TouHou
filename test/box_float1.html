@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>手机浮动</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            margin: 50px auto;
+            width: 1223px;
+            height: 500px;
+            background-color: #b1b1b1;
+        }
+
+        .box .left {
+            float: left;
+            width: 305px;
+            height: 100%;
+            background-color: #c6c6c6;
+        }
+
+        .box .right {
+            float: right;
+            width: 918px;
+            height: 100%;
+            background-color: #c6c6c6;
+        }
+
+        .right > div {
+            width: 23%;
+            height: 48%;
+            float: left;
+            margin-left: 1%;
+            margin-top: 6px;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+
+        .phone_box {
+            background-color: #fff;
+            border-radius: 10px;
+            background-position: top;
+            background-repeat: no-repeat;
+        }
+
+        .phone_box .review {
+            padding-top: 70%;
+            padding-left: 3%;
+            padding-right: 3%;
+            font-size: 13px;
+            font-family: 等线, serif;
+            margin-bottom: 15px;
+            list-style: none;
+        }
+
+        #box_left_marisa {
+            background-image: url('../res/image/TouhouProject/box_left_marisa.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .reisen {
+            background-image: url('../res/image/TouhouProject/reisen.jpeg');
+            background-size: 100%;
+            background-color: #fff;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="left" id="box_left_marisa"></div>
+    <div class="right">
+        <div class="phone_box">
+            <div class="review"></div>
+        </div>
+        <div class="phone_box">
+            <div class="review reisen">非常好用</div>
+        </div>
+        <div class="phone_box">
+            <div class="review"></div>
+        </div>
+        <div class="phone_box">
+            <div class="review"></div>
+        </div>
+        <div class="phone_box">
+            <div class="review"></div>
+        </div>
+        <div class="phone_box">
+            <div class="review"></div>
+        </div>
+        <div class="phone_box">
+            <div class="review"></div>
+        </div>
+        <div class="phone_box">
+            <div class="review"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

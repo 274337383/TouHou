@@ -36,6 +36,27 @@
     color: #fff;
 }
 
+.TouHou_Top {
+    width: 100%;
+    height: 60px;
+    border: #969696;
+}
+
+.TouHou_Top .box {
+    display: block;
+    color: #686868;
+    width: 100px;
+    height: 100px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.TouHou_Top .box:hover {
+    color: #bf9f59;
+}
+
 .TouHou_404 {
     width: 600px;
     height: 400px;

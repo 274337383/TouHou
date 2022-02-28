@@ -10,9 +10,9 @@
         </fileTransfer>
       </webServer>
       <webServer id="c2627bcc-efbd-4396-98ad-f67b4b59d7f9" name="maiddragon.icu" url="http://maiddragon.icu">
-        <fileTransfer rootFolder="/www/wwwroot/maiddragon.icu" accessType="SFTP" host="maiddragon.icu" port="22" sshConfigId="be0aeceb-55f4-4b92-8bcb-5b7af02e7018" sshConfig="root@maiddragon.icu:22 password">
+        <fileTransfer rootFolder="/www/wwwroot/maiddragon.icu" accessType="SFTP" host="maiddragon.icu" port="22" sshConfigId="3127af45-112a-4c07-aaae-7a633df49ba6" sshConfig="root@maiddragon.icu:22 password">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="120000" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
