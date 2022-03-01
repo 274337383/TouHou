@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test</title>
+</head>
+<body>
+
+<script type="text/javascript" src="../res/js/login.js"></script>
+<input type="button" value="登录" onclick="const xhr = new XMLHttpRequest();
+xhr.open('POST', './data.php');
+xhr.setRequestHeader('content-type', 'application/x-www-form- urlencoded')
+xhr.send('a=100&b=200');
+xhr.onload = function () {};
+console.log(xhr.responseText)" />
+</body>
+</html>
